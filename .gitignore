@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Output images (temporary screenshots)
+output-*.png
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Render build cache (if any)
+.render/
