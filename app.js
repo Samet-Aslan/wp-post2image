@@ -30,7 +30,7 @@ app.post('/generate-image', async (req, res) => {
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
-    await page.setViewport({ width: 180, height: 1350 });
+    await page.setViewport({ width: 1080, height: 1350 });
 
     const html = `
       <html>
