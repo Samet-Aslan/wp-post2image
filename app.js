@@ -75,7 +75,7 @@ app.post('/generate-image', async (req, res) => {
 
     await page.setContent(html, { waitUntil: 'networkidle0' });
 
-    const outputPath = path.join(__dirname, 'output-${uuidv4()}.png');
+    const outputPath = path.join(__dirname, `output-${uuid4()}.png`);
     await page.screenshot({ path: outputPath });
 
     await browser.close();

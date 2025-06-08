@@ -1,13 +1,27 @@
 {
-    "name": "wppost2image",
-    "version": "1.0.0",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js"
-    },
-    "dependencies": {
-      "express": "^4.18.2",
-      "puppeteer": "^21.3.8"
-    }
+  "name": "wp-post2image",
+  "version": "1.0.0",
+  "description": "**wp-post2image** is a Node.js-based image generation service designed to work with a WordPress plugin. When a post is published, the plugin sends the title and featured image to this service, which returns a stylized 9:5 promotional image suitable for social media.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samet-Aslan/wp-post2image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Samet-Aslan/wp-post2image/issues"
+  },
+  "homepage": "https://github.com/Samet-Aslan/wp-post2image#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "puppeteer": "^24.10.0",
+    "uuid": "^11.1.0"
   }
-  
+}
